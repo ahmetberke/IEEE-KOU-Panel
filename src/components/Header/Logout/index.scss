@@ -1,0 +1,21 @@
+.Logout{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;   
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    &:hover {
+        background-color: #ededed;
+        color: black;
+        transition: all;
+        transition-duration: 0.3s;
+    }
+}

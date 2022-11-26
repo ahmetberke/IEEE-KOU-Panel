@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    padding-right: 50px;
+    .Brand {
+        flex: 75%;
+        h1 {
+            margin-bottom: 5px;
+        }
+        h4 {
+            margin-top: 0px;
+            color: rgb(61, 61, 61);
+            font-weight: 400;
+        }
+    }
+    .Activity {
+        display: flex;
+        flex: 25%;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+}
