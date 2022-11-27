@@ -14,8 +14,7 @@ function NavbarElements() {
     const [selectedElementID, setSelectedElementID] = useState(elements.filter(e => e.path === window.location.pathname)[0].id);
 
     const handleChangeSelectedItem = (id) => {
-        setSelectedElementID(id);
-        console.log(id);
+        setSelectedElementID(elements.fiter(e => e.path === window.location.pathname)[0].id);
     }
 
     const listNavbarElements = elements.map((element) => (
